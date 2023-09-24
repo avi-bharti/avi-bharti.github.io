@@ -96,12 +96,13 @@ a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0;
-  background-color: white;
-  width: fit-content;
+  right: -60px;
+  background-color: #fff;
+  width: 100vw;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  padding-top: 20px;
 }
 
 .menu-links a {
