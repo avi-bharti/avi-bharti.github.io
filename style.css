@@ -391,7 +391,8 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -405,7 +406,8 @@ article .icon {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
+  padding-bottom: 12px;
 }
 
 .contact-info-container p {
@@ -434,4 +436,8 @@ footer p {
 
 .avatar{
   border-radius: 50% !important;
+}
+
+.lead{
+  font-size: 1.1rem;
 }
